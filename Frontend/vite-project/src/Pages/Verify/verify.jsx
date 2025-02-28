@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import './Verify.css'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { StoreContext } from './../../components/context/StoreContext';
+import { StoreContext } from '../../components/Context/storecontent';
 import axios from 'axios';
 
 const Verify = () => {
